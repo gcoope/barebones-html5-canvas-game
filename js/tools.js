@@ -21,13 +21,13 @@ function clear()
 	ctx.clearRect(0, 0, canvas.width, canvas.height);
 }
 
-// Ass SetupFPS() in init
+// Add SetupFPS() in init
 function setupFPS(){var d=new Date();var a=0;var c="Waiting";function b(){a++;var f=new Date();if(f.getTime()-d.getTime()>1000){var e=f.getTime()-d.getTime();c=""+Math.round(a*1000/e);a=0;d=f}return c}return b}var hit=setupFPS();
 
 // Add this function to draw()
 function drawFPS()
 {
 	ctx.font = "16px Helvetica";
-	ctx.fillStyle = '#000000';
+	ctx.fillStyle = '#000';
 	ctx.fillText(hit(), 10, 20);
 }
