@@ -6,7 +6,7 @@ Contains:
 * css/style.css
 * js/main.js
 * js/tools.js
-* RequestAnimationFrame.js
+* js/RequestAnimationFrame.js
 
 ## Setup
 
